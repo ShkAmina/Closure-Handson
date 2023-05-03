@@ -1,0 +1,22 @@
+body
+{
+    background-color: #FFEAEA;
+}
+.heading
+{
+    text-align: center;
+    color: #2A2F4F;
+}
+.Que
+{
+    color: #9A208C;
+   
+}
+pre
+{
+    
+    font-size: 18px;
+    margin-top: 0;
+    margin-left: 60px;
+   color:#E11299 ;
+}
