@@ -68,7 +68,7 @@ var a = 10;
 
 // Que-8
 
-var globalVar = ""xyz"";
+var globalVar = "xyz";
 
                 (function outerFunc(outerArg) {
                     var outerVar = 'a';
@@ -77,11 +77,11 @@ var globalVar = ""xyz"";
                     var innerVar = 'b';
                     
                     console.log(
-                        ""outerArg = "" + outerArg + ""\n"" +
-                        ""innerArg = "" + innerArg + ""\n"" +
-                        ""outerVar = "" + outerVar + ""\n"" +
-                        ""innerVar = "" + innerVar + ""\n"" +
-                        ""globalVar = "" + globalVar);
+                        "outerArg = " + outerArg + "\n" +
+                      "innerArg = "+ innerArg + "\n" +
+                        "outerVar = " + outerVar + "\n" +
+                        "innerVar = " + innerVar + "\n" +
+                        "globalVar = " + globalVar);
                     
                     })(456);
                 })(123);
